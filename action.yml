@@ -5,16 +5,16 @@ inputs:
   dokku_repo_ip:
     description: 'IP of Dokku Server'
     required: true
-    repo_key:
+  repo_key:
     description: 'Private Key to the own Repo'
     required: true
-    deploy_key:
+  deploy_key:
     description: "Private Key to the Dokku Server"
     required: true
-    main_repo:
+  main_repo:
     description: "Name of own Repo"
     required: true
-    dokku_repo:
+  dokku_repo:
     description: "Dokku Repo"
     required: true
 runs:
